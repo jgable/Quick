@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1694EE001947C262008CCF0C /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1694EDFF1947C262008CCF0C /* ExampleTests.swift */; };
+		1694EE021947CBFA008CCF0C /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1694EDFF1947C262008CCF0C /* ExampleTests.swift */; };
 		34400A95194586F30019C41F /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = 34400A93194586F30019C41F /* NSString+QCKSelectorName.h */; };
 		34400A96194586F30019C41F /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 34400A94194586F30019C41F /* NSString+QCKSelectorName.m */; };
 		34EB41741945BAE70062CC32 /* EqualSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB41731945BAE70062CC32 /* EqualSpec.swift */; };
@@ -103,6 +105,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1694EDFF1947C262008CCF0C /* ExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		34400A93194586F30019C41F /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
 		34400A94194586F30019C41F /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
 		34EB41731945BAE70062CC32 /* EqualSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualSpec.swift; sourceTree = "<group>"; };
@@ -220,6 +223,7 @@
 		DAEB6B9D1943873100289F44 /* QuickTests */ = {
 			isa = PBXGroup;
 			children = (
+				1694EDFF1947C262008CCF0C /* ExampleTests.swift */,
 				DAEB6BCB194387D700289F44 /* FunctionalTests.swift */,
 				DAEB6BCC194387D700289F44 /* ExampleGroupTests.swift */,
 				DAEB6BCD194387D700289F44 /* Fixtures */,
@@ -513,6 +517,7 @@
 				5A5D11AE1947412800F6D13D /* ContainSpec.swift in Sources */,
 				5A5D11AF1947412800F6D13D /* EqualSpec.swift in Sources */,
 				5A5D11B01947412800F6D13D /* BeTrueSpec.swift in Sources */,
+				1694EE021947CBFA008CCF0C /* ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +558,7 @@
 				DAEB6BD6194387D700289F44 /* ContainSpec.swift in Sources */,
 				DAEB6BD2194387D700289F44 /* FunctionalTests.swift in Sources */,
 				34EB41761945C49C0062CC32 /* BeTrueSpec.swift in Sources */,
+				1694EE001947C262008CCF0C /* ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
